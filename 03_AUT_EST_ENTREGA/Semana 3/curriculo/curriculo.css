@@ -1,0 +1,21 @@
+.container {
+    text-align: center;}
+
+h1 {
+    background-color: rgb(78, 104, 104);
+}
+
+h3 {background-color: rgb(78, 104, 104);}
+h4 {background-color: rgb(78, 104, 104);}
+
+.background{
+    background-color: rgb(34, 34, 34);
+}
+
+.text{
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    height: 60%;
+    margin: auto;
+}
