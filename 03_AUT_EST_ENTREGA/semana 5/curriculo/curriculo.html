@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="curriculo.css"></link>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <section class="background">
+        <section class="text">
+            <div class="container">
+                <h1>Currículo</h1>
+                <hr>
+                <h2>Patrick Victorino Miranda</h2>
+                <img src = "Foto perfil Patrick.jpg" alt = "foto de Patrick">
+                <hr>
+                <h3> Formação:  Superior incompleto </h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <font size = 5>
+                            Ensino fundamental 
+                          </font>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Colégio Anglo Raul Soares (2007-2017) <br> Colégio Santo Agostinho Belo Horizonte (2018-2021)
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <font size =5>
+                            Ensino fundamental 
+                          </font>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong> Colégio Santo Agostinho Belo Horizonte  (2018-2021)
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <font size = 5>
+                            Superior
+                          </font>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Inteli São Paulo Ciências da Computação (2022-2025)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <hr>
+                <h3>Atividades extracurriculares</h3>
+                  <button onclick="revelar()" class="canada">
+                    <img src="bandeira_canada.png" alt="bandeira_canada">
+                  </button>
+                  <h5 id="info"></h5>
+                <ul id="list">
+                </ul>
+                <p><br>time de xadrez</p>
+                    <hr>
+                    <h3>Programing Skills</h3>
+                    <font size = 8>
+                            <span class="border border-3 border-primary">
+                                CSS
+                            </span>
+                            <span class="border border-3 border-warning">
+                                HTML
+                            </span>
+                            <span class="border border-3 border-primary">
+                                Bootstrap
+                            </span>
+                            <span class="border border-3 border-danger">
+                                Python
+                            </span>
+                            <span class="border border-3 border-warning">
+                                GdScript
+                            </span>
+                            <span class="border border-3 border-success">
+                                excel
+                            </span>
+                    </font>
+                    <hr>
+                <h3>Contatos:</h3>
+            <p>Email: patrick.miranda@sou.inteli.edu.br <br> Telefone: 33988929960  </p>
+            <a href="https://www.linkedin.com/in/patrick-victorino-miranda-7ab911231/">linkedin</a>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src = "jquery-3.6.0.js"></script>
+            <script src="curriculo.js"></script>
+            </div>  
+        </section>
+    </section>
+</body>
+</html>
