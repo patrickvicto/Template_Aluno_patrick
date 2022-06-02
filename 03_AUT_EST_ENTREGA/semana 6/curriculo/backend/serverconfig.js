@@ -10,6 +10,7 @@ const { get } = require('express/lib/response');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use(express.static("../frontend/"));
 
+//endpoint para visualizar tabela projetos do banco de dados
 app.get('/parceiros', (req, res) => {
 var db = new sqlite3.Database(DBPATH);
 var sql = 'SELECT * FROM projetos ORDER BY parceiro';

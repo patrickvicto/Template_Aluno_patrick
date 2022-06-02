@@ -13,6 +13,7 @@ app.use(express.static("../frontend/"));
 //endpoint para revelar os projeto realizados 
 app.get('/parceiros', (req, res) => {
 var db = new sqlite3.Database(DBPATH);
+
 var sql = 'SELECT * FROM projetos ORDER BY parceiro';
   db.all(sql, [],  (err, rows ) => {
       if (err) {
@@ -25,7 +26,7 @@ var sql = 'SELECT * FROM projetos ORDER BY parceiro';
 
  //endpoint para adicionar projetos realizados 
 app.post('/addparceiro', urlencodedParser, (req, res) => {
-  sql = "INSERT INTO tbprojetos (parceiro, descricao) VALUES ('" + req.body.title + "', 33, false)";
+  sql = "INSERT INTO projetos (parceiro, descrição) VALUES ('" + req.body.parceiro + "', '" + req.body.descrição + "')";
   var db = new sqlite3.Database(DBPATH); 
   db.run(sql, [],  err => {
       if (err) {
@@ -36,9 +37,14 @@ app.post('/addparceiro', urlencodedParser, (req, res) => {
   res.end();
 });
 
+
+
+
+
+
 //endpoint para atualizar os projetos realizados 
 app.post('/parceiroupdate', urlencodedParser, (req, res) => {
-  sql = "UPDATE tbUser SET title = '" + req.body.title + "' WHERE userId = " + req.body.userId;
+  sql = "UPDATE projetos SET descrição = '" + req.body.descrição + "' WHERE id = " + req.body.id;
   var db = new sqlite3.Database(DBPATH); 
   db.run(sql, [],  err => {
       if (err) {
@@ -51,7 +57,7 @@ app.post('/parceiroupdate', urlencodedParser, (req, res) => {
 
 //endpoint para deletar os projetos realizados
 app.post('/parceirodelete', urlencodedParser, (req, res) => {
-  sql = "DELETE FROM tbUser WHERE userId = " + req.body.userId;
+  sql = "DELETE FROM projetos WHERE id = " + req.body.id;
   var db = new sqlite3.Database(DBPATH); 
   db.run(sql, [],  err => {
       if (err) {
