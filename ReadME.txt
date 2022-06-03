@@ -1,3 +1,5 @@
+
+---------------------------------------Curriculo--------------------------------------------------------------------------------------------
 Adição da semana 6 : Criação do banco de dados (tabela projetos) e do endpoint /parceiros para exibir informações da tabela
 
 adição semana 7: criação de tres novos endpoints para completar a CRUD. endpoint /addparceiro para adcionar novas linhas a tabela. 
@@ -11,3 +13,5 @@ Endpoint list:
 /addparceiro para adcionar novas linhas a tabela.
 /parceiroupdate para mudar a descrição de oque foi feito no projeto que foi citado
 /parceirodelete para deletar uma parceiro da tabela
+------------------------------------------exercicios Obrigatorios---------------------------------------------------------------------------
+adição semana 7: adicionado 5 exercicios de programação referentes a semana

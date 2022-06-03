@@ -1,0 +1,1 @@
+adição semana 7: adicionado 5 exercicios de programação referentes a semana
