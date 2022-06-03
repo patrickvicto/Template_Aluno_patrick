@@ -14,4 +14,4 @@ Endpoint list:
 /parceiroupdate para mudar a descrição de oque foi feito no projeto que foi citado
 /parceirodelete para deletar uma parceiro da tabela
 ------------------------------------------exercicios Obrigatorios---------------------------------------------------------------------------
-adição semana 7: adicionado 5 exercicios de programação referentes a semana
+adição semana 7: adicionado os 5 exercicios de programação referentes a semana
