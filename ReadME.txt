@@ -16,4 +16,4 @@ Endpoint list:
 ------------------------------------------exercicios Obrigatorios---------------------------------------------------------------------------
 adição semana 7: adicionado os 5 exercicios de programação referentes a semana
 ---------------------------------------------------------------------------------------------------------------------------------------------
-adição semanana 8: função para mostrar banco de dados no HTML
+adição semanana 8: função para mostrar banco de dados no HTML (carrega automaticamente)
