@@ -22,3 +22,13 @@ function somar(){
     }
     alert("A soma dos numeros é: " + soma)
 }
+//função para somar os dígitos de um numero
+
+
+//Exercício 3
+
+function ordenar(){
+    var ordenar = [document.getElementById('name1').value,document.getElementById('name2').value,document.getElementById('name3').value] 
+    ordenar.sort()
+    alert("Nomes em ordem: " + ordenar)
+}
